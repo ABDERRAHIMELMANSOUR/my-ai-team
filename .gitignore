@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local secrets; sanitized examples may be tracked
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Build outputs and caches
+dist/
+build/
+.next/
+coverage/
+.cache/
+
+# Local tooling and operating systems
+*.log
+.DS_Store
+Thumbs.db
