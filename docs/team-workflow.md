@@ -2,11 +2,11 @@
 
 ## 1. Define the brief
 
-Copy [project-brief-template.md](project-brief-template.md) to a project-specific brief. Identify audience, business goal, scope, constraints, success metrics, and decision maker.
+Copy [the project template](../projects/_template/) to `projects/<slug>/` and fill in its brief. Identify audience, business goal, scope, constraints, success metrics, and decision maker.
 
 ## 2. Plan and assign
 
-The [Team Lead](../agents/team-lead.md) breaks the brief into tasks. Each task records its owner, inputs, dependencies, deliverable path, and acceptance criteria. Track status as Backlog, Ready, In progress, Review, or Done.
+The [lead](../AGENTS.md#the-lead) breaks the brief into tasks, following the matching playbook in [workflows](../workflows/). Each task records its owner, inputs, dependencies, deliverable path, and acceptance criteria. Track status as Backlog, Ready, In progress, Review, or Done.
 
 ## 3. Produce and coordinate
 
@@ -24,12 +24,6 @@ Prepare a reviewable result and obtain authorization for deployment, external pu
 
 Record source, reporting dates, timezone, currency, attribution settings, and metric definitions. Compare results with the agreed baseline and target. Distinguish observed results from hypotheses.
 
-## Handoff template
+## Handoffs
 
-- Task and owner:
-- Status:
-- Deliverables and links:
-- Decisions and assumptions:
-- Checks and evidence:
-- Open issues or blockers:
-- Next owner and next action:
+Use [the handoff template](../templates/handoff.md).
